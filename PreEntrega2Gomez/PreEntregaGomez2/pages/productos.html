@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de pagina</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/images.png" alt="logo" class="logo">
+        </div>
+        <div>
+            <input class="buscador" type="search" value="busque su producto">
+        </div>
+        <div>   
+             <input class="log in" type="button" value="Log in">
+        </div>
+    </header>
+    <main>
+        <form action="ingresar">
+            <div>
+                <label for="nombre"> Nombre Completo </label>
+                <input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre y Apellido" minlength="3" maxlength="50">
+            </div>
+                <label for="contraseña"> Contraseña </label>
+                <input id ="contraseña" name="contraseña" type="password" placeholder="contraseña" minlength="3" maxlength="10">
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a class="links" href="index.html">inicio</a></li>
+                        <li><a class="links" href="../pages/productos.html">productos</a></li>
+                        <li><a class="links" href="nosotros.html">nosotros</a></li>
+                        <li><a class="links" href="contacto.html">contacto</a></li>
+                         <li><a class="links" href="proveedores.html">proveedores</a></li>
+                    </ul>
+                </nav>  
+                <h1 class="titulo">Auriculares</h1>
+                <div class="galeria">
+                    <div>
+                            <img src="img/TAH8506BK_00-IMS-es_AR.webp" alt="imagen1">
+                            <a href="link del producto" class="link_del_producto"></a>
+                            <p class="producto">producto</p>
+                    </div>
+                    <div>
+                        <img src="img/TAH8506BK_00-IMS-es_AR.webp" alt="imagen2">
+                        <p class="producto">producto</p>
+                    </div>
+                    <div>
+                        <img src="img/TAH8506BK_00-IMS-es_AR.webp" alt="imagen3">
+                        <p class="producto">producto</p>
+                    </div>            
+    <section class="seccion">
+    <article>
+        <h2 class="subtitulo">Encontramos en</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016888186402!2d-58.38414532481324!3d-34.60373445749809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1694493068131!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
+    </section>
+    </main>
+    <fieldset class="comentarios">
+        <legend class="leyenda">Ingrese su Comentario</legend>
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese un Comentario"></textarea>
+            <input class="boton_comentario" type="button" value="enviar">
+            <input class="boton_comentario" type="reset" value="borrar">
+
+    </fieldset>
+<footer>   
+    <p class="derechos">derechos de autor</p>
+</footer>
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font: 1em sans-serif;
+    color: black;
+}
+
+header{
+    background-color: rgb(54, 53, 53);
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+}
+.icono{
+    padding: 10px;
+    color: hsl(115, 90%, 24%);
+    background-size: cover;
+    border-radius: 60px;
+    justify-content: start;
+}
+
+
+.titulo{
+    color: green;
+    background-color: grey;
+}
+
+.links{
+    text-decoration: none;
+    color: green;
+}
+.formulario{
+    justify-content: center;
+    align-items: end;
+}
+.titulo{
+    justify-content: space-around;
+}
+.subtitulo{
+    color: green;
+    background-color: grey;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10 px;
+}
+
+.producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentarios{
+    background-color: grey;
+    text-align: right;
+}
+
+.derechos{
+    background-color: rgb(145, 145, 145);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 11px;
+    border-bottom: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.tienda{
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    display: flex;
+
+}
+
+
+.texto{
+    color: green;
+    text-align: center;
+
+}
+
+.titulo2{
+    color: green;
+    background-color: grey;
+    text-align: center;
+}
+
+.marca{
+margin-left: 35%;
+}
+
+@media (max-width:1023PX) {
+    .header{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+        flex-direction: center;
+        text-align: center;
+    }
+    .links{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .tienda{
+        height: auto;
+        width: auto;
+        text-align: starts;
+    }
+}
